@@ -1,0 +1,10 @@
+nome  = input("Digite seu nome completo:")
+idade = int(input("Digite sua idade:"))
+# Comparação 
+if idade >= 18:
+  status = "Maior de idade"
+else:
+  status = "Menor de idade"
+# Resultado 
+print(f"Nome: {nome}")
+print(f"Idade: {idade} anos")
